@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+                <link href="https://code.getmdl.io/1.2.0/material.indigo-blue.min.css" rel="stylesheet">
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js"></script>
+</head>
+
+<body background="doodle.png" class="bg-fix">
+
+<nav class="navbar navbar-dark primary-color">
+  <a class="navbar-brand" href="#">
+    <img src="./ttt1.png" height="30" class="d-inline-block align-top"
+      alt="mdb logo">
+      <b><span id = "tit">Tic-Tac-Toe</span></b>
+  </a>
+</nav>
+<div id="space"> </div>
+<div class="row">
+<div class="card">
+	<table>
+		<tr>
+			<td class="cell" id="0" style="font-size: 70px"></td>
+			<td class="cell" id="1" style="font-size: 70px"></td>
+			<td class="cell" id="2" style="font-size: 70px"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="3" style="font-size: 70px"></td>
+			<td class="cell" id="4" style="font-size: 70px"></td>
+			<td class="cell" id="5" style="font-size: 70px"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="6" style="font-size: 70px"></td>
+			<td class="cell" id="7" style="font-size: 70px"></td>
+			<td class="cell" id="8" style="font-size: 70px"></td>
+		</tr>
+	</table>
+</div>
+	<div class="endgame">
+		<div class="text"></div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-5"></div>
+	<div class="col-md-2">
+		<button type="button" class="button button4" onClick="startGame()">Replay</button>
+	</div>
+	<div class="col-md-5"></div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
